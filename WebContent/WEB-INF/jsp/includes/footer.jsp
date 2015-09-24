@@ -63,23 +63,6 @@
 
     </div>
     <!-- /.container -->
-
-    <!-- jQuery -->
-    <script src="${pageContext.request.contextPath}/static/js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="${pageContext.request.contextPath}/static/js/bootstrap.min.js"></script>
-
-    <script src="${pageContext.request.contextPath}/static/js/navbar.js"></script>
-    
-    <script src="${pageContext.request.contextPath}/static/js/login-register.js"></script>
-    
-    <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    </script>
     
 </body>
 		

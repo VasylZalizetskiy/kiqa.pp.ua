@@ -49,6 +49,16 @@
     <script language="javascript">
         var baseUrl = '${pageContext.request.contextPath}';
     </script>
+    
+    <!-- jQuery -->
+    <script src="${pageContext.request.contextPath}/static/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="${pageContext.request.contextPath}/static/js/bootstrap.min.js"></script>
+
+    <script src="${pageContext.request.contextPath}/static/js/navbar.js"></script>
+    
+    <script src="${pageContext.request.contextPath}/static/js/login-register.js"></script>
 
 </head>
 
