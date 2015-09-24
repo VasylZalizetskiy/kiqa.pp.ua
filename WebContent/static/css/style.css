@@ -1,64 +1,100 @@
-* {
-	margin: 0;
-	padding: 0;
-}
-html {
-	height: 100%;
-}
-article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
-	display: block;
-	background: #f0f0f0;
-	outline: 1px solid #000;
-	margin-top: 10px;
-}
+/* Global Styles */
+
+html,
 body {
-	font: 12px/18px Arial, sans-serif;
-	width: 100%;
-	height: 100%;
+    height: 100%;
 }
 
-
-.wrapper {
-	width: 1020px;
-	margin: 0 auto;
-	min-height: 100%;
-	height: auto !important;
+body {
+    padding-top: 0px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
-.navigation {
-	height: 60px;
+.img-portfolio {
+    margin-bottom: 30px;
 }
 
-.header {
-	height: 150px;
+.img-hover:hover {
+    opacity: 0.8;
 }
 
-.middle {
-	width: 100%;
-	padding: 0 0 120px;
+.logo {
+    height: 65px;
+    width: 180px;
 }
 
-.content {
-	float: left;
-	width: 800px;
-	min-height: 310px;
-	word-wrap: break-word;
+.company-logo{
+    height: 200px;
+    width: 200px;
+}
+/* Home Page Carousel */
+
+header.carousel {
+    height: 60%;
 }
 
-.right-sidebar {
-	float: right;
-	width: 210px;
-	min-height: 310px;
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
 }
 
-.middle:after {
-	display: table;
-	clear: both;
-	content: '';
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
 }
 
-.footer {
-	width: 1020px;
-	margin: -110px auto 0;
-	height: 100px;
+.hero-spacer {
+    margin-top: 50px;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles*/ 
+
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
 }
