@@ -1,2 +1,2 @@
 # kiqa.pp.ua
-Diploma project
+Interactive Learning Platform
